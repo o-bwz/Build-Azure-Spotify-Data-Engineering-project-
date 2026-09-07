@@ -1,0 +1,34 @@
+[ 
+  {
+    "schame":"dbo",
+    "table" :"DimUser",
+    "cdc_col":"update_at";
+    "from_data":""
+},
+
+ {
+    "schame":"dbo",
+    "table" :"DimTrack",
+    "cdc_col":"update_at";
+    "from_data":""
+},
+ {
+    "schame":"dbo",
+    "table" :"DimDate",
+    "cdc_col":"update_at";
+    "from_data":""
+},
+
+ {
+    "schame":"dbo",
+    "table" :"DimArtist",
+    "cdc_col":"update_at";
+    "from_data":""
+},
+ {
+    "schame":"dbo",
+    "table" :"FactStream",
+    "cdc_col":"update_at";
+    "from_data":""
+},
+]
