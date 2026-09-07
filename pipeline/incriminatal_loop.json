@@ -323,7 +323,7 @@
 		"parameters": {
 			"loop_input": {
 				"type": "array",
-				"defaultValue": "[    {     \"schame\":\"dbo\",     \"table\" :\"DimUser\",     \"cdc_col\":\"update_at\";     \"from_data\":\"\" },   {     \"schame\":\"dbo\",     \"table\" :\"DimTrack\",     \"cdc_col\":\"update_at\";     \"from_data\":\"\" },  {     \"schame\":\"dbo\",     \"table\" :\"DimDate\",     \"cdc_col\":\"update_at\";     \"from_data\":\"\" },   {     \"schame\":\"dbo\",     \"table\" :\"DimArtist\",     \"cdc_col\":\"update_at\";     \"from_data\":\"\" },  {     \"schame\":\"dbo\",     \"table\" :\"FactStream\",     \"cdc_col\":\"update_at\";     \"from_data\":\"\" }, ]"
+				"defaultValue": "[    {     \"schame\":\"dbo\",     \"table\" :\"DimUser\",     \"cdc_col\":\"update_at\",     \"from_data\":\"\" },   {     \"schame\":\"dbo\",     \"table\" :\"DimTrack\",     \"cdc_col\":\"update_at\",     \"from_data\":\"\" },  {     \"schame\":\"dbo\",     \"table\" :\"DimDate\",     \"cdc_col\":\"update_at\",     \"from_data\":\"\" },   {     \"schame\":\"dbo\",     \"table\" :\"DimArtist\",     \"cdc_col\":\"update_at\",     \"from_data\":\"\" },  {     \"schame\":\"dbo\",     \"table\" :\"FactStream\",     \"cdc_col\":\"update_at\",     \"from_data\":\"\" }, ]"
 			}
 		},
 		"variables": {
