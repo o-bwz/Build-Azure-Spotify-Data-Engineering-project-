@@ -43,7 +43,7 @@
 								"source": {
 									"type": "AzureSqlSource",
 									"sqlReaderQuery": {
-										"value": "select * from @{item().schame}.@{item().table} \nwhere @{item().cdc_col} > '@{if(empty(item().from_date), activity('last_cdc').output.value[0].cdc, item().from_date)}'",
+										"value": "select * from @{item().schame}.@{item().table} where @{item().cdc_col} > '@{if(empty(item().from_date), activity('last_cdc').output.value[0].cdc,item().from_date)}'",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
@@ -327,32 +327,32 @@
 					{
 						"schame": "dbo",
 						"table": "DimUser",
-						"cdc_col": "update_at",
-						"from_data": ""
+						"cdc_col": "updated_at",
+						"from_date": ""
 					},
 					{
 						"schame": "dbo",
 						"table": "DimTrack",
-						"cdc_col": "update_at",
-						"from_data": ""
+						"cdc_col": "updated_at",
+						"from_date": ""
 					},
 					{
 						"schame": "dbo",
 						"table": "DimDate",
-						"cdc_col": "update_at",
-						"from_data": ""
+						"cdc_col": "updated_at",
+						"from_date": ""
 					},
 					{
 						"schame": "dbo",
 						"table": "DimArtist",
-						"cdc_col": "update_at",
-						"from_data": ""
+						"cdc_col": "updated_at",
+						"from_date": ""
 					},
 					{
 						"schame": "dbo",
 						"table": "FactStream",
-						"cdc_col": "update_at",
-						"from_data": ""
+						"cdc_col": "updated_at",
+						"from_date": ""
 					}
 				]
 			}
